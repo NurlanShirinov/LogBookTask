@@ -16,8 +16,9 @@ namespace LogBookTask
         {
             InitializeComponent();
             guna2Panel1.BorderColor = Color.FromArgb(149, 221, 253);
+
         }
 
-      
+
     }
 }

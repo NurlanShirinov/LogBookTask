@@ -44,6 +44,7 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.AllStudentPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -249,6 +250,14 @@
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // AllStudentPanel
+            // 
+            this.AllStudentPanel.AutoScroll = true;
+            this.AllStudentPanel.Location = new System.Drawing.Point(2, 197);
+            this.AllStudentPanel.Name = "AllStudentPanel";
+            this.AllStudentPanel.Size = new System.Drawing.Size(1156, 425);
+            this.AllStudentPanel.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,6 +270,7 @@
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.AllStudentPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.guna2GroupBox1.ResumeLayout(false);
@@ -290,6 +300,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+        private Guna.UI2.WinForms.Guna2Panel AllStudentPanel;
     }
 }
 

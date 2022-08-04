@@ -121,13 +121,16 @@
   <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="83d702b7-3b3f-4e8f-8669-ebf64cc88af8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83d702b7-3b3f-4e8f-8669-ebf64cc88af8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d34e2bc8-7406-49fe-a9ef-2d823141910b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d34e2bc8-7406-49fe-a9ef-2d823141910b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0f4d4f86-ebb3-441f-ad59-422b51aa79d3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0f4d4f86-ebb3-441f-ad59-422b51aa79d3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="83d702b7-3b3f-4e8f-8669-ebf64cc88af8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\83d702b7-3b3f-4e8f-8669-ebf64cc88af8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProfilePic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProfilePic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
