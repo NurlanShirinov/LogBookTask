@@ -57,6 +57,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +96,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f4d4f86-ebb3-441f-ad59-422b51aa79d3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d34e2bc8-7406-49fe-a9ef-2d823141910b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83d702b7-3b3f-4e8f-8669-ebf64cc88af8.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,36 @@ namespace LogBookTask.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0f4d4f86_ebb3_441f_ad59_422b51aa79d3 {
+            get {
+                object obj = ResourceManager.GetObject("0f4d4f86-ebb3-441f-ad59-422b51aa79d3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83d702b7_3b3f_4e8f_8669_ebf64cc88af8 {
+            get {
+                object obj = ResourceManager.GetObject("83d702b7-3b3f-4e8f-8669-ebf64cc88af8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d34e2bc8_7406_49fe_a9ef_2d823141910b {
+            get {
+                object obj = ResourceManager.GetObject("d34e2bc8-7406-49fe-a9ef-2d823141910b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pen {
             get {
                 object obj = ResourceManager.GetObject("pen", resourceCulture);
