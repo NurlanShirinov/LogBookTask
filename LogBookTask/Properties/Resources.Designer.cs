@@ -113,6 +113,16 @@ namespace LogBookTask.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dimond21 {
+            get {
+                object obj = ResourceManager.GetObject("dimond21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ond {
             get {
                 object obj = ResourceManager.GetObject("ond", resourceCulture);

@@ -75,10 +75,55 @@ namespace LogBookTask
             guna2GroupBox4.Visible = true;
         }
 
+        //private void guna2PictureBox5_DoubleClick(object sender, EventArgs e)
+        //{
+        //    guna2GroupBox4
+           
+        //}
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            guna2GroupBox4.Enabled = false;
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1.Image = Properties.Resources.dimond2;
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox2.Image = Properties.Resources.dimond2;
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox3.Image = Properties.Resources.dimond2;
+        }
+
+        private void guna2PictureBox1_DoubleClick(object sender, EventArgs e)
+        {
+            guna2PictureBox1.Image = Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+        }
+
+        private void guna2PictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            guna2PictureBox2.Image = Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+        }
+
+        private void guna2PictureBox3_DoubleClick(object sender, EventArgs e)
+        {
+            guna2PictureBox3.Image = Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+        }
+
         private void guna2PictureBox5_DoubleClick(object sender, EventArgs e)
+        {
+            guna2GroupBox4.Enabled = true;
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             guna2GroupBox4.Visible = false;
         }
-        
     }
 }

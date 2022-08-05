@@ -37,6 +37,10 @@
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GroupBox4 = new Guna.UI2.WinForms.Guna2GroupBox();
@@ -44,26 +48,22 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox3 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.UcEnterDateLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.UcFullNameLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.UcImagePicterBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.ucIDlbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.UserControlID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.UserControlIdLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.UcImagePicterBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2GroupBox2.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            this.guna2GroupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2GroupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UcImagePicterBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,60 +106,56 @@
             this.guna2GroupBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(391, 40);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(370, 40);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(83, 31);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(104, 36);
             this.guna2GroupBox1.TabIndex = 6;
             // 
             // guna2RadioButton3
             // 
-            this.guna2RadioButton3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton3.CheckedState.BorderColor = System.Drawing.Color.Red;
             this.guna2RadioButton3.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton3.CheckedState.FillColor = System.Drawing.Color.Red;
             this.guna2RadioButton3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2RadioButton3.CheckedState.InnerOffset = -4;
-            this.guna2RadioButton3.Location = new System.Drawing.Point(48, 6);
+            this.guna2RadioButton3.Location = new System.Drawing.Point(54, 5);
             this.guna2RadioButton3.Name = "guna2RadioButton3";
-            this.guna2RadioButton3.Size = new System.Drawing.Size(16, 17);
+            this.guna2RadioButton3.Size = new System.Drawing.Size(19, 25);
             this.guna2RadioButton3.TabIndex = 2;
-            this.guna2RadioButton3.Text = "guna2RadioButton3";
-            this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton3.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.Red;
+            this.guna2RadioButton3.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // guna2RadioButton2
             // 
-            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.Yellow;
             this.guna2RadioButton2.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.Yellow;
             this.guna2RadioButton2.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2RadioButton2.CheckedState.InnerOffset = -4;
-            this.guna2RadioButton2.Location = new System.Drawing.Point(26, 6);
+            this.guna2RadioButton2.Location = new System.Drawing.Point(29, 6);
             this.guna2RadioButton2.Name = "guna2RadioButton2";
-            this.guna2RadioButton2.Size = new System.Drawing.Size(16, 17);
+            this.guna2RadioButton2.Size = new System.Drawing.Size(19, 25);
             this.guna2RadioButton2.TabIndex = 1;
-            this.guna2RadioButton2.Text = "guna2RadioButton2";
-            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton2.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.Yellow;
+            this.guna2RadioButton2.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // guna2RadioButton1
             // 
-            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.SpringGreen;
             this.guna2RadioButton1.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.SpringGreen;
             this.guna2RadioButton1.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2RadioButton1.CheckedState.InnerOffset = -4;
-            this.guna2RadioButton1.ForeColor = System.Drawing.Color.SpringGreen;
-            this.guna2RadioButton1.Location = new System.Drawing.Point(4, 6);
+            this.guna2RadioButton1.Location = new System.Drawing.Point(4, 5);
             this.guna2RadioButton1.Name = "guna2RadioButton1";
-            this.guna2RadioButton1.Size = new System.Drawing.Size(16, 17);
+            this.guna2RadioButton1.Size = new System.Drawing.Size(19, 25);
             this.guna2RadioButton1.TabIndex = 0;
-            this.guna2RadioButton1.Text = "guna2RadioButton1";
-            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.SpringGreen;
+            this.guna2RadioButton1.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
@@ -174,8 +170,23 @@
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "-",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.guna2ComboBox1.Location = new System.Drawing.Point(518, 40);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(73, 36);
@@ -192,8 +203,23 @@
             this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.guna2ComboBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2ComboBox2.ItemHeight = 30;
+            this.guna2ComboBox2.Items.AddRange(new object[] {
+            "-",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.guna2ComboBox2.Location = new System.Drawing.Point(620, 40);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(73, 36);
@@ -215,6 +241,56 @@
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.Size = new System.Drawing.Size(165, 36);
             this.guna2GroupBox2.TabIndex = 9;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.Image = global::LogBookTask.Properties.Resources.d34e2bc8_7406_49fe_a9ef_2d823141910b;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(128, 11);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(31, 25);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 3;
+            this.guna2PictureBox4.TabStop = false;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(94, 12);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(31, 25);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 2;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
+            this.guna2PictureBox3.DoubleClick += new System.EventHandler(this.guna2PictureBox3_DoubleClick);
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(57, 11);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(31, 25);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 1;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
+            this.guna2PictureBox2.DoubleClick += new System.EventHandler(this.guna2PictureBox2_DoubleClick);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(14, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(31, 25);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            this.guna2PictureBox1.DoubleClick += new System.EventHandler(this.guna2PictureBox1_DoubleClick);
             // 
             // guna2TextBox1
             // 
@@ -254,7 +330,7 @@
             this.guna2Panel1.Controls.Add(this.UserControlIdLbl);
             this.guna2Panel1.Location = new System.Drawing.Point(-1, -1);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1333, 122);
+            this.guna2Panel1.Size = new System.Drawing.Size(1320, 122);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2GroupBox4
@@ -297,6 +373,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(107, 27);
             this.guna2Button2.TabIndex = 13;
             this.guna2Button2.Text = "İmtina Etmək";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -312,6 +389,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(107, 27);
             this.guna2Button1.TabIndex = 12;
             this.guna2Button1.Text = "Rəy Yazmaq";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2GroupBox3
             // 
@@ -322,6 +400,19 @@
             this.guna2GroupBox3.Size = new System.Drawing.Size(300, 200);
             this.guna2GroupBox3.TabIndex = 14;
             this.guna2GroupBox3.Text = "guna2GroupBox3";
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.Image = global::LogBookTask.Properties.Resources._83d702b7_3b3f_4e8f_8669_ebf64cc88af8;
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(899, 46);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(31, 25);
+            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox5.TabIndex = 4;
+            this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
+            this.guna2PictureBox5.DoubleClick += new System.EventHandler(this.guna2PictureBox5_DoubleClick);
             // 
             // UcEnterDateLbl
             // 
@@ -340,6 +431,18 @@
             this.UcFullNameLbl.Size = new System.Drawing.Size(86, 15);
             this.UcFullNameLbl.TabIndex = 4;
             this.UcFullNameLbl.Text = "guna2HtmlLabel1";
+            // 
+            // UcImagePicterBox
+            // 
+            this.UcImagePicterBox.Image = global::LogBookTask.Properties.Resources.ProfilePic;
+            this.UcImagePicterBox.ImageRotate = 0F;
+            this.UcImagePicterBox.Location = new System.Drawing.Point(31, 22);
+            this.UcImagePicterBox.Name = "UcImagePicterBox";
+            this.UcImagePicterBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.UcImagePicterBox.Size = new System.Drawing.Size(64, 64);
+            this.UcImagePicterBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.UcImagePicterBox.TabIndex = 3;
+            this.UcImagePicterBox.TabStop = false;
             // 
             // ucIDlbl
             // 
@@ -369,75 +472,6 @@
             this.UserControlIdLbl.TabIndex = 0;
             this.UserControlIdLbl.Text = null;
             // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.Image = global::LogBookTask.Properties.Resources._83d702b7_3b3f_4e8f_8669_ebf64cc88af8;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(899, 46);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(31, 25);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox5.TabIndex = 4;
-            this.guna2PictureBox5.TabStop = false;
-            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
-            this.guna2PictureBox5.DoubleClick += new System.EventHandler(this.guna2PictureBox5_DoubleClick);
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.Image = global::LogBookTask.Properties.Resources.d34e2bc8_7406_49fe_a9ef_2d823141910b;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(128, 11);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(31, 25);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 3;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(94, 12);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(31, 25);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 2;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(57, 11);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(31, 25);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 1;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::LogBookTask.Properties.Resources._0f4d4f86_ebb3_441f_ad59_422b51aa79d3;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(14, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(31, 25);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // UcImagePicterBox
-            // 
-            this.UcImagePicterBox.Image = global::LogBookTask.Properties.Resources.ProfilePic;
-            this.UcImagePicterBox.ImageRotate = 0F;
-            this.UcImagePicterBox.Location = new System.Drawing.Point(31, 22);
-            this.UcImagePicterBox.Name = "UcImagePicterBox";
-            this.UcImagePicterBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.UcImagePicterBox.Size = new System.Drawing.Size(64, 64);
-            this.UcImagePicterBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.UcImagePicterBox.TabIndex = 3;
-            this.UcImagePicterBox.TabStop = false;
-            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -447,15 +481,15 @@
             this.Size = new System.Drawing.Size(1335, 120);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.guna2GroupBox4.ResumeLayout(false);
             this.guna2GroupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UcImagePicterBox)).EndInit();
             this.ResumeLayout(false);
 
@@ -466,9 +500,6 @@
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox UcImagePicterBox;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton3;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
@@ -489,5 +520,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel ucIDlbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel UserControlID;
         private Guna.UI2.WinForms.Guna2HtmlLabel UserControlIdLbl;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton3;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton1;
     }
 }

@@ -25,7 +25,7 @@ namespace LogBookTask
             guna2HtmlLabel7.ForeColor = Color.FromArgb(39, 181, 246);
             guna2Panel1.BorderColor = Color.FromArgb(144, 219, 253);
             guna2PictureBox2.BackColor = Color.FromArgb(227, 246, 255);
-            guna2Panel1.BorderColor= Color.FromArgb(39, 181, 246);
+            guna2Panel1.BorderColor = Color.FromArgb(39, 181, 246);
 
 
 
@@ -108,9 +108,62 @@ namespace LogBookTask
                 uc.FullName = item.FullName;
                 uc.UCid = item.Id;
                 uc.UcImage = item.StudentImage;
-                uc.MystatDateTime=item.EnterMyStatDate.ToShortDateString();
+                uc.MystatDateTime = item.EnterMyStatDate.ToShortDateString();
             }
         }
 
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+            guna2GroupBox1.Enabled = true;
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            guna2HtmlLabel8.Text = guna2TextBox1.Text;
+            guna2GroupBox1.Enabled = false;
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            guna2HtmlLabel8.Text = string.Empty;
+            guna2TextBox1.Text = string.Empty;
+        }
+
+        private void guna2RadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (guna2RadioButton3.Checked)
+            {
+                foreach (var item in guna2Panel1.Controls)
+                {
+                    if (item is UserControl1 Uc)
+                    {
+                        foreach (var item2 in Uc.Controls)
+                        {
+                            if (item2 is Guna.UI2.WinForms.Guna2Panel pn)
+                            {
+                                foreach (var item3 in pn.Controls)
+                                {
+                                    if (item3 is GroupBox gb)
+                                    {
+                                        foreach (var item4 in gb.Controls)
+                                        {
+                                            if (item4 is RadioButton rb)
+                                            {
+                                                if (rb.Name == "guna2RadioButton1")
+                                                {
+                                                    rb.Checked = true;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
