@@ -12,7 +12,7 @@ namespace LogBookTask
         public int Id { get; set; }
         public static int StaticId { get; set; }
         public string FullName { get; set; }
-        public DateTime EnterMyStatDate { get; set; }
+        public DateTime EnterMyStatDate { get; set; }=DateTime.Now;
         public Image StudentImage { get; set; }
 
         public Student()

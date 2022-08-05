@@ -36,17 +36,19 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.AllStudentPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,7 +165,8 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel8);
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel7);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel6);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
@@ -172,32 +175,23 @@
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Location = new System.Drawing.Point(2, 128);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1156, 69);
+            this.guna2Panel1.Size = new System.Drawing.Size(1228, 69);
             this.guna2Panel1.TabIndex = 6;
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(872, 25);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(22, 15);
-            this.guna2HtmlLabel8.TabIndex = 6;
-            this.guna2HtmlLabel8.Text = "Rəy";
             // 
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(790, 25);
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(805, 25);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(10, 18);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(12, 22);
             this.guna2HtmlLabel7.TabIndex = 5;
             this.guna2HtmlLabel7.Text = "5";
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(689, 25);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(664, 25);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(46, 15);
             this.guna2HtmlLabel6.TabIndex = 4;
@@ -206,7 +200,7 @@
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(570, 25);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(553, 25);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(64, 15);
             this.guna2HtmlLabel5.TabIndex = 3;
@@ -215,7 +209,7 @@
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(373, 8);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(406, 8);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(100, 15);
             this.guna2HtmlLabel4.TabIndex = 2;
@@ -224,7 +218,7 @@
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(200, 25);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(261, 25);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(89, 15);
             this.guna2HtmlLabel3.TabIndex = 1;
@@ -233,11 +227,31 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(46, 25);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(116, 25);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(101, 15);
             this.guna2HtmlLabel2.TabIndex = 0;
             this.guna2HtmlLabel2.Text = "Tələbənin Ad,Soyadı";
+            // 
+            // AllStudentPanel
+            // 
+            this.AllStudentPanel.AutoScroll = true;
+            this.AllStudentPanel.BorderThickness = 3;
+            this.AllStudentPanel.Location = new System.Drawing.Point(-9, 197);
+            this.AllStudentPanel.Name = "AllStudentPanel";
+            this.AllStudentPanel.Size = new System.Drawing.Size(1236, 510);
+            this.AllStudentPanel.TabIndex = 7;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::LogBookTask.Properties.Resources.dimond2;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(822, 20);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(32, 33);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 7;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2PictureBox1
             // 
@@ -250,20 +264,22 @@
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // AllStudentPanel
+            // guna2HtmlLabel8
             // 
-            this.AllStudentPanel.AutoScroll = true;
-            this.AllStudentPanel.Location = new System.Drawing.Point(2, 197);
-            this.AllStudentPanel.Name = "AllStudentPanel";
-            this.AllStudentPanel.Size = new System.Drawing.Size(1156, 425);
-            this.AllStudentPanel.TabIndex = 7;
+            this.guna2HtmlLabel8.AutoSize = false;
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(779, 66);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(122, 17);
+            this.guna2HtmlLabel8.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1170, 634);
+            this.ClientSize = new System.Drawing.Size(1242, 719);
+            this.Controls.Add(this.guna2HtmlLabel8);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2RadioButton2);
             this.Controls.Add(this.guna2RadioButton1);
@@ -276,6 +292,7 @@
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -299,8 +316,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2Panel AllStudentPanel;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
     }
 }
 

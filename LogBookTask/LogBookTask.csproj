@@ -109,5 +109,14 @@
   <ItemGroup>
     <None Include="Resources\ProfilePic.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dimond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dimond2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

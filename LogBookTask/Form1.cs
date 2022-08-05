@@ -23,8 +23,12 @@ namespace LogBookTask
             guna2HtmlLabel5.ForeColor = Color.FromArgb(39, 181, 246);
             guna2HtmlLabel6.ForeColor = Color.FromArgb(39, 181, 246);
             guna2HtmlLabel7.ForeColor = Color.FromArgb(39, 181, 246);
-            guna2HtmlLabel8.ForeColor = Color.FromArgb(39, 181, 246);
             guna2Panel1.BorderColor = Color.FromArgb(144, 219, 253);
+            guna2PictureBox2.BackColor = Color.FromArgb(227, 246, 255);
+            guna2Panel1.BorderColor= Color.FromArgb(39, 181, 246);
+
+
+
 
             students.Add(new Student
             {
@@ -101,11 +105,12 @@ namespace LogBookTask
                 uc.Location = new Point(x, y);
                 y += uc.Height;
 
-              
-
-
-
+                uc.FullName = item.FullName;
+                uc.UCid = item.Id;
+                uc.UcImage = item.StudentImage;
+                uc.MystatDateTime=item.EnterMyStatDate.ToShortDateString();
             }
         }
+
     }
 }
