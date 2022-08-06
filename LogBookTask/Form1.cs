@@ -13,6 +13,7 @@ namespace LogBookTask
     public partial class Form1 : Form
     {
         List<Student> students = new List<Student>();
+        
         public Form1()
         {
             InitializeComponent();
@@ -114,9 +115,7 @@ namespace LogBookTask
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
-
             guna2GroupBox1.Enabled = true;
-
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -135,7 +134,7 @@ namespace LogBookTask
         {
             if (guna2RadioButton3.Checked)
             {
-                foreach (var item in guna2Panel1.Controls)
+                foreach (var item in AllStudentPanel.Controls)
                 {
                     if (item is UserControl1 Uc)
                     {
@@ -145,7 +144,7 @@ namespace LogBookTask
                             {
                                 foreach (var item3 in pn.Controls)
                                 {
-                                    if (item3 is GroupBox gb)
+                                    if (item3 is Guna.UI2.WinForms.Guna2GroupBox gb)
                                     {
                                         foreach (var item4 in gb.Controls)
                                         {
